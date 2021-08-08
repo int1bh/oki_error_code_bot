@@ -1,7 +1,7 @@
 const { Telegraf, Markup } = require("telegraf");
 const fs = require('fs')
 
-const BOT_TOKEN = '1819996088:AAFiOQevBVbOg9Eqe9CDTDM2R7GzqNhDDqU'
+const BOT_TOKEN = 'BOT_TOKEN'
 const BOT = new Telegraf(BOT_TOKEN);
 
 const ERROR_CODES = JSON.parse(fs.readFileSync('error_codes.json', 'utf-8'));
