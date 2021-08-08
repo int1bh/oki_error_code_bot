@@ -1,0 +1,15 @@
+{
+  "name": "oki_error_code_bot",
+  "version": "1.0.0",
+  "description": "OKI Bankomates error code description",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Alexandr Dryagin",
+  "license": "ISC",
+  "dependencies": {
+    "telegraf": "^4.4.1"
+  }
+}
